@@ -1,0 +1,17 @@
+{
+  "name": "dotdotlulu",
+  "version": "1.0.0",
+  "description": "dotdotlulu website",
+  "main": "index.js",
+  "repository": "https://github.com/dotdotlulu/dotdotlulu.git",
+  "author": "Oda Meier (logiky) <63876444+logiky@users.noreply.github.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-sslify": "^1.2.0"
+  }
+}
