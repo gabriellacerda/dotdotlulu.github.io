@@ -1,4 +1,4 @@
-# dalmataworks - welcome [![pages-build-deployment](https://github.com/dalmataworks/dalmataworks.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/dalmataworks/dalmataworks.github.io/actions/workflows/pages/pages-build-deployment)
+# dotdotlulu - welcome [![pages-build-deployment](https://github.com/dotdotlulu/dotdotlulu.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/dotdotlulu/dotdotlulu.github.io/actions/workflows/pages/pages-build-deployment)
 
 Yet, an simple static website experience.
 
@@ -18,4 +18,4 @@ Yet, an simple static website experience.
 
 ## Credits
 
-&copy; 2022 DalmataWorks.
+&copy; 2022 DotDotLulu.
