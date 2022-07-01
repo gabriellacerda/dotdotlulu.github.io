@@ -81,8 +81,6 @@
           align-items: center;
           gap: 66px;
           /* background: #fbfbfb; */
-          align-content: center;
-          justify-content: center;
         }
         .jumbotron .right img {
           max-width: 35rem;
@@ -92,10 +90,12 @@
           line-height: 1.4;
           padding: 20px;
           -webkit-font-smoothing: antialiased;
-          font-size: 27px;
+          font-size: 63px;
           font-weight: 300;
           margin-bottom: 0px;
-          text-align: initial;
+          font-weight: bold;
+          border-left: 10px solid;
+          max-width: 516px;
         }
         .jumbotronext {
           background: transparent;
@@ -117,7 +117,8 @@
         .jumbotron a {
           text-decoration: none;
           transition: all cubic-bezier(0, 0, 0, 0.97) 0.3s;
-          text-align: center;
+          display: flex;
+          align-items: center;
         }
         .jumbotron a:hover {
           opacity: 0.7;
@@ -128,6 +129,7 @@
         }
         .jumbotron a div {
           padding-top: 12px;
+          font-size: 26px;
         }
         a {
           color: #ff176a;
@@ -149,25 +151,28 @@
 
 <body class="animate__animated animate__fadeIn">
     <div class="container">
-      <div class="jumbotron">
-        <div>
-          <h4>Confira nossos estúdios!</h4>
-          <div style="max-width: 300px;text-align: center;margin: 0 auto;">
-            <small>&copy; 2022 <a target="_blank" href="https://github.com/dalmataworks">DalmataWorks</a> and its contributors. Hosted on <a target="_blank" href="https://github.com/dotdotlulu/dotdotlulu.github.io">Github</a>, built with ❤️.</small>
-          </div>
+      <div style="display: flex;flex-direction: column;gap: 66px;">
+        <h4>Confira nossos estúdios!</h4>
+        <div class="jumbotron">
+          <a target="_blank" href="https://github.com/dotdotlulu">
+            <img src="dotdotlulu.png" /> <div style="color: #222">DotDotLulu</div>
+          </a>
+          <a target="_blank" href="https://github.com/katherineheadshall">
+            <img src="katherineheadshall.png" /> <div style="color: #222">Katherine Headshall</div>
+          </a>
+          <a target="_blank" href="https://github.com/nuclideo">
+            <img src="nuclideo.png" /> <div style="color: #222">Nuclideo</div>
+          </a>
+          <a target="_blank" href="https://github.com/typedojo">
+            <img src="typedojo.png" /> <div style="color: #222">TypeDojo</div>
+          </a>
+          <a target="_blank" href="https://github.com/imaginellc">
+            <img src="imagine.png" /> <div style="color: #222">Imagine LLC.</div>
+          </a>
         </div>
-        <a target="_blank" href="https://github.com/dotdotlulu">
-          <img src="dotdotlulu.png" /> <div style="color: #222">DotDotLulu</div>
-        </a>
-        <a target="_blank" href="https://github.com/katherineheadshall">
-          <img src="katherineheadshall.png" /> <div style="color: #222">Katherine Headshall</div>
-        </a>
-        <a target="_blank" href="https://github.com/nuclideo">
-          <img src="nuclideo.png" /> <div style="color: #222">Nuclideo</div>
-        </a>
-        <a target="_blank" href="https://github.com/typedojo">
-          <img src="typedojo.png" /> <div style="color: #222">TypeDojo</div>
-        </a>
+        <div style="max-width: 400px">
+          &copy; 2022 <a target="_blank" href="https://github.com/dalmataworks">DalmataWorks</a> and its contributors. Repository on <a target="_blank" href="https://github.com/dotdotlulu/dotdotlulu.github.io">Github</a>, built with ❤️.
+        </div>
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
